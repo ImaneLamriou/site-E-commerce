@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'sonia_demoregular';
+  src: url('src/fonts/sonia-webfont.woff2') format('woff2'),
+       url('src/fonts/sonia-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+a.produit {
+    text-align:center;
+    text-decoration-color: brown;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(58, 12, 47);
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration:none;
+    font-style: italic;
+    font-family: 'sonia_demoregular';
+    font-size: 1.2em;
+  
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgba(163, 94, 114, 0.884);
+    
+  }
+  
+  .container-fluid{
+    color:white;
+    border-spacing: 5px 1rem; 
+  }
+  .monBoutton{
+    background-color: rgb(240, 212, 212);
+    padding: right 10px;
+  }
+  .connexion-inscription {
+    float: right;
+
+  } 

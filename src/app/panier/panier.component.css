@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: 'sonia_demoregular';
+    src: url('src/fonts/sonia-webfont.woff2') format('woff2'),
+         url('src/fonts/sonia-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+.col-md-4 {
+    background-color: rgba(163, 94, 114, 0.884);
+    font-size: small;
+    padding:left ;
+    font-family: 'sonia_demoregular';
+} 
+li{
+   background-color: rgb(240, 212, 212);
+   background-clip: border-box; 
+   
+} 
+.panier{
+    text-decoration: violet;
+    font-family: 'sonia_demoregular';
+    font-size: medium;
+    font-style: italic;
+} 
+.btn-sm btn-primary{
+    background-color: cadetblue;
+} 

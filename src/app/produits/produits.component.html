@@ -1,0 +1,81 @@
+
+ <div class="card mb-4 shadow-sm" *ngFor = "let produit of produits" >
+  <div class="descriptif">
+  <div class="image"><img src="{{produit.photo}}"/></div><br>
+  <strong class="nom">{{produit.nom}}</strong> <br> 
+  <strong class="prix">Prix :{{produit.prix}}</strong> <br>
+  <span class="categorie">Catégorie :{{produit.categorie}}</span><br>
+  <span class="stock">Stock :{{produit.stock}}</span>
+  <details class="boxDetails">
+      <p class="details">{{produit.details}}</p> 
+  </details>
+  <div *ngIf= "user|async" >
+    <input type="submit" class="monBoutton" value="Ajoutez"/>
+  </div>
+</div>
+</div>
+    
+
+
+
+
+
+
+
+
+
+
+
+<!--<table>
+  <tr>
+    <th>Nom</th>
+    <th>Stock</th>
+    <th>Prix</th>
+    <td>Categorie</td>
+ 
+
+
+    (ngIf directive va afficher ou non un composant selon une condition)
+
+  </tr>
+  <tr *ngFor = "let produit of produits"> 
+    <td>{{produit.nom}}</td>
+    <td>{{produit.stock}}</td>
+    <td>{{produit.prix}}</td>
+    <td>{{produit.categorie}}</td>
+    <input type="submit" value="Acheter"/> 
+
+    <td *ngIf="produits.stock == 0">(En rupture de stock)</td>
+    
+  </tr>  
+  
+</table> -->
+
+
+
+
+
+
+<!--<br> Liste des produits :
+
+<ul>
+    c'est un template de typescript
+      <li *ngFor="let produit of produits">
+        {{produit.nom}}
+        on peut ajouter le type le prix ...{{produit.prix}}
+    
+    
+        pour tester si le produit est en stock ou pas 
+    <span *ngIf="produit.stock==0">
+      (indisponible)
+    </span>
+    
+    </li>
+    </ul> -->
+
+
+
+
+  
+ 
+    

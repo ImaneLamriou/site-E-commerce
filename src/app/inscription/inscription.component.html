@@ -1,0 +1,27 @@
+<nav class="navbar">
+    <a class="navbar-brand" href="index.html"></a>
+</nav>
+<form (ngSubmit)="OnSubmit(inscriptionForm)"#inscriptionForm="ngForm" class="was-validated">
+    <br>
+    <br>
+    <div class="form-group">
+    <label for="nom">Nom</label><br>
+    <input type="text" id="nom" name="nom" class="form-control" placeholder="Saisir le nom" [(ngModel)]="utilisateur.nom" required>
+    <br  />
+
+    <label for="prenom">Prenom</label><br>
+    <input type="text" id="prenom" name="prenom" class="form-control" placeholder="Saisir le prenom" [(ngModel)]="utilisateur.prenom" required>
+    <br  />
+
+    <label for="email">Email</label><br>
+    <input type="text" id="email" name="email" class="form-control" placeholder="Saisir le email" [(ngModel)]="utilisateur.email" required>
+    <br  />
+
+    <label for="password">Mot de passe</label><br>
+    <input type="password" id="mdp" name="mdp" class="form-control" placeholder="Saisir le mot de passe" [(ngModel)]="utilisateur.password" required>
+    <br  />
+     
+   <input type="submit" class="btn btn-sm btn-dark" value="Validez" >
+
+    </div>
+</form> 

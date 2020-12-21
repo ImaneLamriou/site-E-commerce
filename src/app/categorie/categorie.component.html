@@ -1,0 +1,28 @@
+<!--<div *ngIf="!(user|async ">
+  <p class="card-header mx-auto">en vous connectant , decouvrez nos :</p>
+   <div class="card-body">
+     <div *ngFor="let categorie of categories" class="card">
+       <p class="card-text mx-auto"{{categorie}}></p>
+     </div>
+   </div>
+</div>
+<div *ngIf="user|async">
+  <div class="card-header">vous etes connecté :</div>
+  <div class="card-body">
+    <di
+    v *ngFor="let categorie of categories">
+      <p class="card-text mx-auto"><input type="button" value="aller vite decouvrir nos{{categorie}}"
+       (click)="produitsParCateorie(categorie)"/></p>
+      </div>
+  </div>
+</div>-->
+<table>
+    <tr>
+      <th>Categorie</th>
+    </tr>
+    <tr *ngFor = "let cat of categories">
+      <td>{{cat}}</td>
+    </tr>
+    
+  </table>
+  

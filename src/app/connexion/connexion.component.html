@@ -1,0 +1,16 @@
+
+
+  <div class="formulaire">
+  <form (ngSubmit)="onSubmit()" #inscriptionForm="ngForm">
+
+    <div class="text">
+    <label> Email </label>
+    <input type="text" class="form-control" required [(ngModel)]="utilisateur['email']" name="email"  placeholder="Entrer nom ou email d'utilisateur" />
+
+    <label> Mot de passe </label>
+    <input type="password" class="form-control" required [(ngModel)]="utilisateur['password']" name="password"  placeholder="*********" />
+    </div>
+    <div class="submit">
+    <input type="submit" class="btn btn-sm btn-dark" value="Se connecter"/></div>
+  </form>
+</div>

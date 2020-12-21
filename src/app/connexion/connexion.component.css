@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'shella_cleanregular';
+  src: url('src/fonts/shella_clean-webfont.woff2') format('woff2'),
+       url('src/fonts/shella_clean-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+.formulaire {
+  background-color: rgba(224, 186, 197, 0.884);
+    width : 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-display: auto;
+
+}
+.text{
+  text-decoration: violet;
+  font-family: 'shella_cleanregular';
+  font-size: medium;
+  font-style: italic;
+}
+
+.submit{
+    font-family: 'shella_cleanregular';
+    margin-left: auto;
+    margin-right: auto;
+    width : 110px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: violet;
+}

@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'shella_cleanregular';
+  src: url('src/fonts/shella_clean-webfont.woff2') format('woff2'),
+       url('src/fonts/shella_clean-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+table {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    caption-side : top;
+    position : absolute;
+    margin:center;
+    margin-left: -200px; /* - moitié de la largeur */
+    position: absolute;
+    left: 30%;
+    margin-top: 2em;
+  }
+  
+  td, th {
+    border: 1px solid #f7d9d9;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    text-decoration: pink;
+  }
+  
+  tr:nth-child(even) {
+    background-color:#f7d9d9;
+  }
+  .card {
+    background-color: rgba(163, 94, 114, 0.884);
+    width : 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-display: auto;
+    text-decoration: tomato;
+    padding-left:5px; 
+    padding-right:5px;
+  
+    
+  }
+
+  .monBoutton{
+    background-color: rgba(138, 48, 73, 0.603);
+    margin-left: auto;
+    margin-right: auto;
+    width : 100px;
+    font-family:'shella_cleanregular';
+    text-decoration: violet;
+  }
+  .descriptif{
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+
+.nom {
+  font-family: 'shella_cleanregular';
+  font-size: medium;
+  color: brown;
+  font-size: 1.2em;
+  
+} 
+.prix {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  color: brown;
+
+} 
+.categorie{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  text-align:left; 
+  color:brown;
+} 
+.stock{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  text-align:left; 
+  color:beige;
+
+} 
+.boxDetails{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  text-align:left; 
+  color:brown;
+} 
+.details{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  text-align:left; 
+  color:beige;
+
+
+} 
